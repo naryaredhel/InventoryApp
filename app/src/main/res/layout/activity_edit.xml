@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="8dp"
+android:orientation="vertical">
+
+<EditText
+    android:id="@+id/product_name_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:hint="@string/product_name" />
+
+<EditText
+    android:id="@+id/price_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:hint="@string/price"
+    android:maxLength="7"
+    android:inputType="number"/>
+
+<EditText
+    android:id="@+id/quantity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:hint="@string/quantity"
+    android:maxLength="7"
+    android:inputType="number"/>
+
+<EditText
+    android:id="@+id/supplier_name_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:hint="@string/supplier_name" />
+
+<EditText
+    android:id="@+id/supplier_phone_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:hint="@string/supplier_phone"
+    android:maxLength="11"
+    android:inputType="phone"/>
+</LinearLayout>
+
